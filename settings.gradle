@@ -1,0 +1,2 @@
+include ':app', ':shared', ':mainmenu'
+rootProject.name='TraceRouter'

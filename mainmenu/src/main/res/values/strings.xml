@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mainmenu</string>
+    <string name="title_section_map">Location</string>
+    <string name="title_section_routes">Routes</string>
+</resources>
