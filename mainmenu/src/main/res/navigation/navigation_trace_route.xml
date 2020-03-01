@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/navigation_trace_route"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator_trace_route"
     app:startDestination="@id/mapLocationFragment">
 
     <fragment
         android:id="@+id/mapLocationFragment"
         android:name="com.mosso.mainmenu.presentation.MapLocationFragment"
-        android:label="MapLocationFragment" />
+        android:label="MapLocationFragment"
+        tools:layout="@layout/fragment_map" />
     <fragment
         android:id="@+id/routesFragment"
         android:name="com.mosso.mainmenu.presentation.RoutesFragment"
-        android:label="RoutesFragment" />
+        android:label="RoutesFragment"
+        tools:layout="@layout/fragment_routes" />
 </navigation>

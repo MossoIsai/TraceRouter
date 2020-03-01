@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_movies"
+        android:id="@+id/locationNavigation"
         android:icon="@drawable/ic_location"
         android:title="@string/title_section_map" />
 
     <item
-        android:id="@+id/navigation_series"
+        android:id="@+id/routeNavigation"
         android:icon="@drawable/ic_truck"
         android:title="@string/title_section_routes" />
 

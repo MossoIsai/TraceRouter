@@ -16,8 +16,4 @@ class RoutesFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_routes, container, false)
     }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-    }
 }
