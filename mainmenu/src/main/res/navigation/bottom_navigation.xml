@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/mapFragment2">
+
+    <fragment
+        android:id="@+id/mapFragment2"
+        android:name="com.mosso.mainmenu.presentation.view.MapFragment"
+        android:label="MapFragment" />
+    <fragment
+        android:id="@+id/routesFragment2"
+        android:name="com.mosso.mainmenu.presentation.view.RoutesFragment"
+        android:label="RoutesFragment" />
+</navigation>

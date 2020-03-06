@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "576669009455",
+    "firebase_url": "https://traceroute-e1d3c.firebaseio.com",
+    "project_id": "traceroute-e1d3c",
+    "storage_bucket": "traceroute-e1d3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576669009455:android:482c988721b555b3e6e8da",
+        "android_client_info": {
+          "package_name": "com.mosso.tracerouter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576669009455-s5ccom61lrkrjucckd0dcv8c6bimjsqa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mosso.tracerouter",
+            "certificate_hash": "1769b7b40642f19d9a8c5996b383cbde7f82aee2"
+          }
+        },
+        {
+          "client_id": "576669009455-8ue97uu020vrdbvm3rs2fmuo0pk2c5bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2hNoUqU_0Kl6R1leVzoAdyHni5-AMp9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576669009455-8ue97uu020vrdbvm3rs2fmuo0pk2c5bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

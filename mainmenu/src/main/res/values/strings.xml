@@ -3,4 +3,8 @@
     <string name="title_section_map">Location</string>
     <string name="title_section_routes">Routes</string>
     <string name="title_map_menu_choose_route">Choose Route</string>
+    <string name="coordinate_wrong_error_message">Coornedas erroneas</string>
+    <string name="label_origin_location">Origin</string>
+    <string name="label_destination_location">Destination</string>
+    <string name="labelRouteMenu">Trace Route</string>
 </resources>

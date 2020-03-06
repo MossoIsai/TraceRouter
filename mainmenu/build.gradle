@@ -51,5 +51,13 @@ dependencies {
     implementation androidSupport.values()
     implementation navigation.values()
     implementation locations.values()
-
+    implementation retrofit.values()
+    implementation okhttp.values()
+    implementation androidSupport.values()
+    implementation picasso.values()
+    implementation koin.values()
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+    implementation 'androidx.navigation:navigation-fragment:2.2.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.2.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.2.1'
 }

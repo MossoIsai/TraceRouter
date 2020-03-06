@@ -1,4 +1,4 @@
-package com.mosso.mainmenu.presentation
+package com.mosso.mainmenu.presentation.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,5 +15,10 @@ class RoutesFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_routes, container, false)
+    }
+
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
     }
 }

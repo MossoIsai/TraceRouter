@@ -32,10 +32,13 @@ ext {
     playServicesVisionVersion = '17.0.2'
     lottieVersion = "2.7.0"
     appCompatVersion = "1.0.2"
-    koinVersion = "1.0.2"
+    koinVersion = "2.0.1"
+    koinVersion2 = "1.0.2"
     navigationVersion = "2.2.1"
     materialDesignVersion  = "1.1.0"
     gmsPlayServicesVersion = '11.8.0'
+    easyPermissionVersion = '1.1.1'
+
 
 
 
@@ -68,7 +71,8 @@ ext {
     retrofit = [
             retrofit : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
             gson     : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
-            adapterRx: "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}"
+            adapterRx: "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+            scalar   : "com.squareup.retrofit2:converter-scalars:${retrofitVersion}" 
     ]
 
     playServices = [
@@ -101,7 +105,8 @@ ext {
     ]
    
     koin = [
-             koin: "org.koin:koin-android:${koinVersion}"
+                 koinViewModel: "org.koin:koin-android-viewmodel:${koinVersion}",
+                 koinCore: "org.koin:koin-android:${koinVersion2}"
              ]
 
     materialDesign = [
@@ -112,6 +117,7 @@ ext {
             maps:  "com.google.android.gms:play-services-maps:${gmsPlayServicesVersion}",
             places: "com.google.android.gms:play-services-places:${gmsPlayServicesVersion}",
             location: "com.google.android.gms:play-services-location:${gmsPlayServicesVersion}",
-            playServices: "com.google.android.gms:play-services:${gmsPlayServicesVersion}"
+            playServices: "com.google.android.gms:play-services:${gmsPlayServicesVersion}",
+            easyPermission: "pub.devrel:easypermissions:${easyPermissionVersion}"
     ]        
 }
