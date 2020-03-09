@@ -36,10 +36,10 @@
             android:name="com.mosso.mainmenu.presentation.view.MainMenuActivity"
             android:screenOrientation="portrait"/>
 
-        <activity android:name="com.mosso.mainmenu.SecondActivity"
-            android:theme="@style/AppTheme.Transparent"
-            android:launchMode="singleTop"
-            />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:name="com.mosso.mainmenu.presentation.view.SearchRoutesActivity"/>
     </application>
 
 </manifest>

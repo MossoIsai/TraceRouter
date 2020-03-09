@@ -1,5 +1,6 @@
 package com.mosso.mainmenu.presentation.view
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
@@ -13,7 +14,7 @@ import com.mosso.mainmenu.domain.models.Points
 import com.mosso.mainmenu.domain.models.RouteDomain
 import com.mosso.mainmenu.presentation.viewmodels.MapViewModel
 import com.mosso.shared.view.ScreenState
-import kotlinx.android.synthetic.main.layuout_cardview.*
+import kotlinx.android.synthetic.main.layout_cardview.*
 import org.koin.android.viewmodel.ext.android.viewModel
 
 
@@ -60,6 +61,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return (when (item.itemId) {
             R.id.reload -> {
+                startActivity(Intent(activity, SearchRoutesActivity::class.java))
                 true
             }
             else -> {
